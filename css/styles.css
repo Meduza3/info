@@ -1,0 +1,58 @@
+/*******************************************TAG SELECTORS*******************************************/
+body{
+  margin:0;
+  text-align: center;
+  font-family: "Roboto",serif;
+
+}
+
+h1{
+  color:blue;
+  font-family: "Sacramento", cursive;
+
+}
+
+h2{
+  font-family:"Montserrat";
+}
+
+h3{
+  font-family:"Montserrat";
+}
+/*******************************************CLASS SELECTORS*******************************************/
+
+.top-container{
+
+  background-color:lightblue;
+  border:dotted;
+  border-width:0;
+  border-bottom-width:5px;
+  padding-top:100px;
+  position: relative;
+}
+
+.middle-container{
+ position: relative;
+ padding-top: 100px;
+}
+
+
+.bottom-container{
+
+}
+
+.cloud{
+  position:absolute;
+}
+
+/*******************************************ID SELECTORS*******************************************/
+
+#bottom-cloud{
+  left:300px
+  bottom:300px
+}
+
+#top-cloud{
+  right:300px
+  top: 50px
+}
